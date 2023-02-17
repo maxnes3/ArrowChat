@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatCode", "ChatCode\ChatCode.csproj", "{B0B01E64-1B58-4D00-B771-4868409D46AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatCode", "ChatCode\ChatCode.csproj", "{B0B01E64-1B58-4D00-B771-4868409D46AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBusinessLogic", "ChatBusinessLogics\ChatBusinessLogic.csproj", "{A4AD67F7-4E23-43BD-A1BE-C9D12422F441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatImplement", "ChatImplement\ChatImplement.csproj", "{9085E282-67CC-49F8-8C71-19C8F36264C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B0B01E64-1B58-4D00-B771-4868409D46AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0B01E64-1B58-4D00-B771-4868409D46AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0B01E64-1B58-4D00-B771-4868409D46AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AD67F7-4E23-43BD-A1BE-C9D12422F441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AD67F7-4E23-43BD-A1BE-C9D12422F441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AD67F7-4E23-43BD-A1BE-C9D12422F441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AD67F7-4E23-43BD-A1BE-C9D12422F441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9085E282-67CC-49F8-8C71-19C8F36264C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9085E282-67CC-49F8-8C71-19C8F36264C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9085E282-67CC-49F8-8C71-19C8F36264C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9085E282-67CC-49F8-8C71-19C8F36264C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
